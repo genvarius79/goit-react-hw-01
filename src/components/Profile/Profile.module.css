@@ -1,0 +1,81 @@
+.list {
+  width: 100%;
+  padding: 0;
+  margin: 10px 0 0 0;
+  list-style: none;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(200, 200, 200);
+}
+.items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid rgb(145, 143, 143);
+  border-right: 1px solid rgb(145, 143, 143);
+  padding: 10px;
+}
+.container {
+  width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #111;
+  border-radius: 10px;
+  margin: 10px 20px 20px 20px;
+  overflow: hidden;
+}
+.containerImage {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imageCard {
+  width: 150px;
+  border-radius: 50%;
+  background-color: rgb(47, 47, 55);
+}
+.textName {
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  font-size: 28px;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+}
+.textTag {
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(101, 99, 99);
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  margin: 0 0 0 0;
+}
+.textLable {
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+}
+.textValues {
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+}
