@@ -10,19 +10,19 @@ export default function TransactionHistory({items}) {
       <th className={css.tdHeader}>Currency</th>
     </tr>
   </thead>
-
+    <tbody>
   
         
         {items.map((items,idx) => {
-            const amountClasses = clsx(css.td, idx % 2 === 0 ? css.tdLight : css.tdDarck)
-            return <tbody key={items.id}>
-    <tr>
-      <td className={amountClasses}>{items.type}</td>
-      <td className={amountClasses}>{items.amount}</td>
-      <td className={amountClasses}>{items.currency}</td>
-    </tr>
-  </tbody>
-			})}
+            const amountClasses = clsx(css.td, idx % 2 === 0 ? css.tdLight : css.tdDark)
+            return <tr key={items.id}>
+                    <td className={amountClasses}>{items.type}</td>
+                    <td className={amountClasses}>{items.amount}</td>
+                    <td className={amountClasses}>{items.currency}</td>
+                  </tr>
+  
+        })}
+    </tbody>
 </table>
 
         
